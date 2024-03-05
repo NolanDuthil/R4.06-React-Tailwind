@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primitive Tokens */
+    /* Dark Theme */
+    --very-dark-blue: 230 17% 14%;
+    --very-dark-blue-top: 232 19% 15%;
+    --dark-desatured-blue: 228 28% 20%;
+    --dark-blue: 228 26% 27%;
+    --desatured-blue: 228 34% 66%;
+    /* Light Theme */
+    --white: 0 0% 100%;
+    --very-pale-blue: 225 100% 98%;
+    --light-grayish-blue: 227 47% 96%;
+    --light-gray: 232 33% 91%;
+    --dark-grayish-blue: 228 12% 44%;
+
+    /* Semantics Tokens */
+    --background: var(--very-dark-blue);
+    --forground: var(--white);
+    --top-background-pattern: var(--very-dark-blue-top);
+    --background-card: var(--dark-desatured-blue);
+    --background-card-hover: var(--dark-blue);
+    --text: var(--desatured-blue);
+  }
+
+  .light {
+    --background: var(--white);
+    --forground: var(--very-dark-blue);
+    --top-background-pattern: var(--very-pale-blue);
+    --background-card: var(--light-grayish-blue);
+    --background-card-hover: var(--light-gray);
+    --text: var(--dark-grayish-blue);
+
+  }
+}
