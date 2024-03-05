@@ -13,7 +13,10 @@ export default {
           card: "hsl(var(--background-card)/<alpha-value>)",
           hover: "hsl(var(--background-card-hover)/<alpha-value>)",
           text: "hsl(var(--text)/<alpha-value>)",
-      }
+      },
+      backgroundImage: {
+          instagram: "var(--instagram)"
+      },
     },
   },
   plugins: [],
