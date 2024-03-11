@@ -1,7 +1,7 @@
 import { cva } from "class-variance-authority";
 
 // Base definition
-const base = "";
+const base = "inline-flex";
 
 const button = cva(base, {
   variants: {
@@ -38,7 +38,7 @@ function Button({ intent, size, className, ...rest }) {
 export default function Ex3_2() {
   return (
     <div className="grid h-screen place-content-center">
-      <Button>Click me</Button>
+      <Button intent="secondary">Click me</Button>
     </div>
   );
 }
