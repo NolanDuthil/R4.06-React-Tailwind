@@ -1,4 +1,4 @@
-import Ex from "./exercices/exercice3/Ex3_2";
+import Ex from "./exercices/test/Test";
 
 export default function App() {
   return <Ex />;
