@@ -11,7 +11,7 @@ const button = cva(base, {
     intent: {
       primary: [
         "bg-green-400",
-        "text-black",
+        "text-forground",
         "hover:bg-green-300",
         "rounded-md",
         "font-bold",
@@ -59,7 +59,7 @@ function Button({ intent, size, className, ...rest }) {
 
 export default function Ex3_2() {
   return (
-    <div className="grid bg-blue-900 h-screen place-content-center">
+    <div className="grid bg-background h-screen place-content-center">
       <Button>Click me</Button>
       <Button intent="secondary">Click me</Button>
       <Button intent="categories" size="categories">Click me</Button>
