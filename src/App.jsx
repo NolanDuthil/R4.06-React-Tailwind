@@ -1,7 +1,7 @@
-import Ex2 from "./exercices/exercice2/Ex2"
+import Ex1_2 from "./exercices/exercice1/Ex1_2"
 
 export default function App() {
   return (
-    <Ex2></Ex2>
+    <Ex1_2></Ex1_2>
   );
 }

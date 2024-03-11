@@ -1,7 +1,7 @@
 function Button({ children, className, ...restProps }) {
     return (
         <button
-            className={`rounded-lg bg-emerald-600 ${className}`}
+            className={`rounded-lg bg-emerald-600 px-5 py-2 font-semibold text-white hover:bg-emerald-500 active:bg-emerald-700 ${className} `}
             {...restProps}
         >
             {children}
@@ -11,8 +11,8 @@ function Button({ children, className, ...restProps }) {
 
 export default function Ex1_2() {
     return (
-        <div className="">
-            <Button className="bg-red-600"></Button>
+        <div className="grid h-screen place-content-center">
+            <Button className="bg-blue-500">Click Me</Button>
         </div>
     );
 }
