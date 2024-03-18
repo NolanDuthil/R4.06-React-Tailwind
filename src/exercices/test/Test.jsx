@@ -57,7 +57,7 @@ function Button({ intent, size, className, ...rest }) {
   return <button {...rest} className={button({ intent, size, className })} />;
 }
 
-export default function Ex3_2() {
+export default function AllButton() {
   return (
     <div className="grid bg-background h-screen place-content-center">
       <Button>Click me</Button>
