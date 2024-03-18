@@ -1,5 +1,4 @@
 import { cva } from "class-variance-authority";
-import { MenuBar } from "../../components/Menu";
 
 // Base definition
 const base = "inline-flex";
@@ -35,9 +34,6 @@ const button = cva(base, {
         "rounded-md",
         "font-bold",
       ],
-      MenuBar: [
-        "bg-transparent",
-      ]
     },
     size: {
       categories: ["text-sm"],
@@ -63,9 +59,6 @@ export default function AllButton() {
       <Button>Click me</Button>
       <Button intent="secondary">Click me</Button>
       <Button intent="categories" size="categories">Click me</Button>
-      <Button intent="MenuBar">
-        <MenuBar className=""></MenuBar>
-      </Button>
     </div>
   );
 }
